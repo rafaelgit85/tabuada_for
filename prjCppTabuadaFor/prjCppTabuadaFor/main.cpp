@@ -2,15 +2,18 @@
 
 using namespace std;
 
-void main() {
-
-	int tabuada=0;
-	
-
-
+void titulo() {
 	cout << "\tTABUADA" << endl;
 	cout << "\t-------\n" << endl;
-	do
+}
+
+void main() {
+
+	int tabuada = 0;
+
+	titulo();
+
+    do
 	{ 
 		cout << "  Diga a tabuada desejada: ";
 		cin >> tabuada;
