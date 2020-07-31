@@ -1,30 +1,55 @@
 #include<iostream>
 
 using namespace std;
-
+int tabuada = 0;
 void titulo() {
 	cout << "\tTABUADA" << endl;
 	cout << "\t-------\n" << endl;
 }
+//
+//int leTabuada(int tabuada)
+//{
+//	do
+//	{
+//		cout << "  Diga a tabuada desejada: ";
+//		cin >> tabuada;
+//	} while (tabuada < 0 || tabuada > 11);
+//	cout << "\n";
+//	return tabuada;
+//}
 
-void main() {
+int leTabuada2()
+{
+	
+	        do
+			{
+				cout << "  Diga a tabuada desejada: ";
+				cin >> tabuada;
+			} while (tabuada < 0 || tabuada > 11);
+			cout << "\n";
+			return tabuada;
 
-	int tabuada = 0;
+}
 
-	titulo();
-
-    do
-	{ 
-		cout << "  Diga a tabuada desejada: ";
-		cin >> tabuada;
-	} while (tabuada < 0 || tabuada > 11);
-	cout << "\n";
-
-	for (int cont = 0, result;cont <=11; cont++)
+int forTabuada() {
+	for (int cont = 0, result; cont <= 11; cont++)
 	{
 		result = tabuada * cont;
 		cout << "  " << tabuada << " x " << cont << " = " << result << endl;
 	}
+	return tabuada;
+}
+
+void main() {
+
+	
+
+	titulo();
+//tabuada =leTabuada(tabuada);
+	leTabuada2();
+
+	forTabuada();
+	
 	
 	
 	

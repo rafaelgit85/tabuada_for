@@ -1,3 +1,3 @@
 ﻿  main.cpp
-C:\Users\rafae\Desktop\Algorithm\8th Day\tabuada_for\prjCppTabuadaFor\prjCppTabuadaFor\main.cpp(12,13): warning C4326: tipo de retorno de 'main' deve ser 'int' em vez de 'void'
+C:\Users\rafae\Desktop\Algorithm\8th Day\tabuada_for\prjCppTabuadaFor\prjCppTabuadaFor\main.cpp(43,13): warning C4326: tipo de retorno de 'main' deve ser 'int' em vez de 'void'
   prjCppTabuadaFor.vcxproj -> C:\Users\rafae\Desktop\Algorithm\8th Day\tabuada_for\prjCppTabuadaFor\Debug\prjCppTabuadaFor.exe
