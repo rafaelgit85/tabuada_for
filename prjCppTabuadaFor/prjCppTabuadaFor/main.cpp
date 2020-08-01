@@ -36,6 +36,7 @@ void calcular_MostrarTabuada(int copiaTabuada) {
 	{
 		result = copiaTabuada * cont;
 		cout << "  " << copiaTabuada << " x " << cont << " = " << result << endl;
+	
 	}
 	
 }
