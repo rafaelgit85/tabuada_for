@@ -1,7 +1,7 @@
 #include<iostream>
 
 using namespace std;
-int tabuada = 0;
+
 void titulo() {
 	cout << "\tTABUADA" << endl;
 	cout << "\t-------\n" << endl;
@@ -31,24 +31,24 @@ int leTabuada2()
 
 }
 
-int leTabuada3() {
+void calcular_MostrarTabuada(int copiaTabuada) {
 	for (int cont = 0, result; cont <= 11; cont++)
 	{
-		result = tabuada * cont;
-		cout << "  " << tabuada << " x " << cont << " = " << result << endl;
+		result = copiaTabuada * cont;
+		cout << "  " << copiaTabuada << " x " << cont << " = " << result << endl;
 	}
-	return tabuada;
+	
 }
 
 void main() {
 
-	
+	int tabuada = 0;
 
 	titulo();
 //tabuada =leTabuada(tabuada);
-	leTabuada2();
+	tabuada = leTabuada2();
 
-	leTabuada3();
+	calcular_MostrarTabuada(tabuada);
 	
 	
 	
