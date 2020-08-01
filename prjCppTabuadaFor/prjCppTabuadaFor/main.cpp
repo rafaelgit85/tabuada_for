@@ -31,7 +31,7 @@ int leTabuada2()
 
 }
 
-int forTabuada() {
+int leTabuada3() {
 	for (int cont = 0, result; cont <= 11; cont++)
 	{
 		result = tabuada * cont;
@@ -48,7 +48,7 @@ void main() {
 //tabuada =leTabuada(tabuada);
 	leTabuada2();
 
-	forTabuada();
+	leTabuada3();
 	
 	
 	
